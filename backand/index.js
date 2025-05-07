@@ -14,7 +14,7 @@ app.use(express());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
-const allowedOrigin = 'http://localhost:5173';
+const allowedOrigin = 'job-hunt-frontend-47jk.vercel.app';
 
 // Use the cors middleware with specific origin
 app.use(cors({
